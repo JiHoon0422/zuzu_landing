@@ -213,6 +213,12 @@ header.masthead .intro-text .intro-cta #subscription-submit{
 	max-height: 24rem;
 }
 
+#service .feature-container img{
+	width:100%;
+	margin-bottom:2rem;
+	max-height: 24rem;
+}
+
 
 .footer{
 	padding: 2.5rem 0rem;
