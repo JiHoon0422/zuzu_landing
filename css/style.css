@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap');
+
+
+:root{
+--primary-color:#2A7175;
+--secondary-color: #0177ff;
+--text-color:#333333;
+}
+
+html{
+	font-size:10px;
+}
+
+body{
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+#main-nav{
+padding-top:2.4rem;
+padding-bottom:2.4rem;
+transition:padding-top .3s,padding-bottom .3s;
+border:none;
+background-color: white;
+}
+
+#main-nav .navbar-nav .nav-item .nav-link{
+	padding: 1.1rem 1rem!important;
+}
+
+#main-nav .navbar-nav .nav-item .nav-link{
+	font-size: 1.4rem;
+    font-weight: 400;
+    padding: .75em 0;
+    letter-spacing: 1px;
+    color: var(--text-color);
+    transition: all .315s ease-out;
+    margin-right:1.6rem;
+    position: relative;
+}
+
+#main-nav .navbar-nav .nav-item .nav-link:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+#main-nav .navbar-nav .nav-item .nav-link:hover:before{
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.navbar img{
+	width:60px;
+}
+
+
+header.masthead{
+	text-align: left;
+	color:#dddddd;
+	background-image:url('../img/cover.png');
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+}
+
+header.masthead .intro-text{
+	padding-top:20rem;
+	padding-bottom:26rem;
+}
+
+header.masthead .intro-text .intro-lead-in{
+	font-size:1.4rem;
+	font-weight: 500;
+	color:var(--primary-color);
+}
+
+header.masthead .intro-text .intro-heading{
+	margin-top:1.6rem;
+	font-size:6.4rem;
+	font-weight:100;
+	color:var(--text-color);
+	line-height:1.2;
+}
+
+header.masthead .intro-text .intro-paragraph{
+	margin-top:2.4rem;
+	font-size:1.6rem;
+	font-weight:400;
+	color:var(--text-color);
+	line-height:1.5;
+
+}
+
+header.masthead .intro-text .intro-cta{
+	margin-top:3.6rem;
+	font-size:1.6rem;
+	font-weight:400;
+	color:var(--text-color);
+	line-height:1.5;
+}
+
+header.masthead .intro-text .intro-cta input[type=text]{	
+  width: 240px;
+  height: 45px;
+  overflow: visible;
+  border: 1px solid var(--primary-color);
+  padding-left:.8rem;
+}
+
+header.masthead .intro-text .intro-cta input[type=text]::placeholder{	
+ padding-left:.8rem;
+ font-weight:300;
+}
+
+header.masthead .intro-text .intro-cta input[type=text]::-webkit-input-placeholder{	
+ padding-left:.8rem;
+ font-weight:300;
+}
+
+header.masthead .intro-text .intro-cta input[type=text]:-ms-input-placeholder{	
+ padding-left:.8rem;
+ font-weight:300;
+}
+
+header.masthead .intro-text .intro-cta #subscription-submit{	
+  padding:1.4rem 3.5rem 1.4rem 3.5rem;
+  font-size:1.6rem;
+  letter-spacing: 0px;
+  line-height:1.2;
+  font-weight:700;
+  color:white;
+  background-color: var(--primary-color);
+  border:none;
+}
+
+.page-section h3.section-subheading{
+	font-size:1.6rem;
+	color:var(--primary-color);
+	font-weight: 400;
+	margin-bottom:1rem;
+	margin-top:4rem;
+}
+
+.service-pre-heading{
+	font-size:1.4rem;
+	color:var(--secondary-color);
+	letter-spacing: 0;
+	line-height: 1.2;
+	font-weight:500;
+	margin-top:3.2rem;
+	margin-bottom:2.4rem;
+}
+
+.service-heading{
+	margin:1.5rem 0rem;
+	text-transform: none;
+	font-size: 1.8rem;
+}
+
+.text-muted{
+	font-size:1.6rem;	
+	color: var(--text-color);
+}	
