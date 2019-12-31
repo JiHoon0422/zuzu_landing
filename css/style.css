@@ -275,10 +275,16 @@ header.masthead .intro-text .intro-cta #subscription-submit{
   	text-align: left;
   	padding-left:2.1rem;
   	font-weight:500;
+  	padding-top:7rem;
+  	padding-bottom:0rem;
   }
  
   .text-muted{
   	font-size:1.4rem;
+  }
+
+  #service{
+	padding-bottom:0rem;
   }
 
   #subscription-submit-header{
