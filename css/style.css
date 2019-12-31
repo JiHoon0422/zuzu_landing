@@ -24,10 +24,6 @@ background-color: white;
 }
 
 #main-nav .navbar-nav .nav-item .nav-link{
-	padding: 1.1rem 1rem!important;
-}
-
-#main-nav .navbar-nav .nav-item .nav-link{
 	font-size: 1.4rem;
     font-weight: 400;
     padding: .75em 0;
@@ -36,6 +32,10 @@ background-color: white;
     transition: all .315s ease-out;
     margin-right:1.6rem;
     position: relative;
+}
+
+#main-nav .navbar-nav .nav-item .nav-link{
+	padding: 1.1rem 1rem!
 }
 
 #main-nav .navbar-nav .nav-item .nav-link:before{
@@ -95,6 +95,7 @@ header.masthead .intro-text .intro-paragraph{
 	font-weight:400;
 	color:var(--text-color);
 	line-height:1.5;
+	width:37%;
 
 }
 
@@ -176,9 +177,18 @@ header.masthead .intro-text .intro-cta #subscription-submit{
 
 
 @media (min-width: 320px) and (max-width: 480px) {
-    #main-nav {
+   #main-nav {
     box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2);
+    padding-bottom:2rem;
   }
+
+  #main-nav .navbar-nav .nav-item .nav-link{
+  	padding:2rem;
+  }
+
+  #main-nav .navbar-nav .nav-item .nav-link:first-child{
+  	padding-top:2rem;
+  }	
 
   header.masthead{
   	background-image:none;
@@ -205,6 +215,21 @@ header.masthead .intro-text .intro-cta #subscription-submit{
   header.masthead .intro-text .intro-cta #subscription-submit{
   	width:100%;
   	height:56px;
+  }
+
+  .feature-container{
+  	padding-left:1.5rem;
+  	padding-right:1.5rem;
+  }
+
+  header.masthead .intro-text .intro-paragraph{
+  	width:100%;
+  	font-size:1.4rem;
+  	color:#686865
+  }
+
+  .text-muted{
+  	font-size:1.4rem;
   }
 
 }
