@@ -73,7 +73,7 @@ header.masthead{
 
 header.masthead .intro-text{
 	padding-top:20rem;
-	padding-bottom:26rem;
+	padding-bottom:20rem;
 }
 
 header.masthead .intro-text .intro-lead-in{
@@ -169,6 +169,10 @@ header.masthead .intro-text .intro-cta #subscription-submit{
 	font-size:1.6rem;	
 	color: var(--text-color);
 }	
+
+.page-section{
+	padding:6rem;
+}
 
 
 @media (min-width: 320px) and (max-width: 480px) {
