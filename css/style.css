@@ -191,10 +191,13 @@ header.masthead .intro-text .intro-cta #subscription-submit{
 	line-height: 1.61;
 }	
 
+#service{
+	padding-top:3.5rem;
+}
 
 .page-section{
 	/*padding-top:6rem;*/
-	padding-bottom:8rem;
+	padding-bottom:11rem;
 }
 
 #blog, #service{
