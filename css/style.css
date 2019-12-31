@@ -73,7 +73,7 @@ header.masthead{
 
 header.masthead .intro-text{
 	padding-top:20rem;
-	padding-bottom:20rem;
+	padding-bottom:24rem;
 }
 
 header.masthead .intro-text .intro-lead-in{
@@ -162,7 +162,11 @@ header.masthead .intro-text .intro-cta #subscription-submit{
 .service-heading{
 	margin:1.5rem 0rem;
 	text-transform: none;
+	width:100%;
 	font-size: 1.8rem;
+	text-overflow: ellipsis;	
+	white-space: nowrap;
+  	overflow: hidden;
 }
 
 .text-muted{
@@ -170,10 +174,28 @@ header.masthead .intro-text .intro-cta #subscription-submit{
 	color: var(--text-color);
 }	
 
+
 .page-section{
-	padding:6rem;
+	/*padding-top:6rem;*/
+	padding-bottom:8rem;
 }
 
+
+#blog .feature-container{
+	margin-bottom:2rem;
+}
+
+.feature-container img{
+	width:100%;
+	max-height: 24rem;
+}
+
+
+.footer{
+	padding: 2.5rem 0rem;
+	background-color: var(--text-color);
+	color:white;
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
    #main-nav {
@@ -220,6 +242,7 @@ header.masthead .intro-text .intro-cta #subscription-submit{
   .feature-container{
   	padding-left:1.5rem;
   	padding-right:1.5rem;
+	padding-bottom:1.8rem;
   }
 
   header.masthead .intro-text .intro-paragraph{
@@ -230,11 +253,10 @@ header.masthead .intro-text .intro-cta #subscription-submit{
 
   .page-section h3.section-subheading{
   	text-align: left;
-  	padding-left:1rem;
+  	padding-left:2.1rem;
   	font-weight:500;
   }
-
-
+ 
   .text-muted{
   	font-size:1.4rem;
   }
