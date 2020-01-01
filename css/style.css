@@ -98,7 +98,7 @@ header.masthead .intro-text .intro-paragraph{
 	font-size:1.6rem;
 	font-weight:400;
 	color:var(--text-color);
-	line-height:1.5;
+	line-height:1.8;
 	width:37%;
 }
 
@@ -116,6 +116,7 @@ header.masthead .intro-text .intro-cta input[type=text]{
   overflow: visible;
   border: 1px solid var(--primary-color);
   padding-left:.8rem;
+  border-radius: 5px;
 }
 
 header.masthead .intro-text .intro-cta input[type=text]::placeholder{	
@@ -143,6 +144,7 @@ header.masthead .intro-text .intro-cta #subscription-submit{
   background-color: var(--primary-color);
   border:none;
   transition: all .312s ease-out;
+  border-radius: 5px;
 }
 
 header.masthead .intro-text .intro-cta #subscription-submit:hover{
@@ -161,6 +163,7 @@ box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
   background-color: var(--primary-color);
   border:none;
   transition: all .312s ease-out;
+  border-radius: 5px;
 }
 
 
@@ -206,7 +209,7 @@ box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
 }	
 
 #service{
-	padding-top:3.5rem;
+	padding-top:2rem;
 }
 
 .page-section{
