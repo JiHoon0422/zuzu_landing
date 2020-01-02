@@ -102,6 +102,12 @@ header.masthead .intro-text .intro-paragraph{
 	width:37%;
 }
 
+header.masthead .intro-text .intro-input-label{
+  font-size:1.2rem;
+  color:var(--primary-color);
+  padding-top:1.6rem;
+}
+
 header.masthead .intro-text .intro-cta{
 	margin-top:3.6rem;
 	font-size:1.6rem;
