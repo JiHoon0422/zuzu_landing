@@ -41,6 +41,10 @@ background-color: white;
 	padding: 1.1rem 1rem!
 }
 
+#main-nav .navbar-nav .nav-item .nav-link:hover{
+  color:var(--primary-color);
+}
+
 #main-nav .navbar-nav .nav-item .nav-link:before{
   content: "";
   position: absolute;
@@ -205,8 +209,9 @@ box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
 	font-size: 1.8rem;
 	text-overflow: ellipsis;	
 	white-space: nowrap;
-  	overflow: hidden;
-  	font-weight: 400;
+  overflow: hidden;
+  font-weight: 400;
+  color:var(--sub-title);
 }
 
 .text-muted{
