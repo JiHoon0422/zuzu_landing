@@ -25,7 +25,10 @@ body{
   font-size:1.4rem;
   color:white;
   font-weight: 300;
+  background-color:#F7D77F;
+  color: black;
 }
+
 
 #main-nav{
 padding-top:1.2rem;
